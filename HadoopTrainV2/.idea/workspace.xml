@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90194011-9721-44c2-9d75-e310eba72d99" name="Default Changelist" comment="" />
+    <list default="true" id="90194011-9721-44c2-9d75-e310eba72d99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HadoopTrainV1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HadoopTrainV1/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HadoopTrainV1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HadoopTrainV1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HadoopTrainV1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HadoopTrainV1/src/main/java/com/csu/hadooptrainv1/Hadooptrainv1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HadoopTrainV1/src/main/java/com/csu/hadooptrainv1/hdfs/HDFSDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HadoopTrainV1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HadoopTrainV1/src/test/java/com/csu/hadooptrainv1/Hadooptrainv1ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HadoopTrainV1/src/test/java/com/csu/hadooptrainv1/hdfs/HDFSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megvii/bigdata/hadoop/jdbc/JDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/megvii/bigdata/hadoop/mapred/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/megvii/bigdata/hadoop/hdfs/HdfsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/megvii/bigdata/hadoop/hdfs/HdfsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/megvii/bigdata/hadoop/hdfs/HdfsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/megvii/bigdata/hadoop/hdfs/HdfsTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +49,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -44,7 +67,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1kxI1V8R2JVSk1hGfKC158Y3ReW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -56,7 +85,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,34 +99,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HdfsTest.testMkdir">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.megvii.bigdata.App" />
-      <module name="HadoopTrainV2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.megvii.bigdata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HDFSApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.megvii.bigdata.hadoop.hdfs.HDFSApp" />
-      <module name="HadoopTrainV2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.megvii.bigdata.hadoop.hdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HdfsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HdfsTest.getFileBlockLocations">
+    <configuration name="HdfsTest.copyFromLocalBigFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HadoopTrainV2" />
       <extension name="coverage">
         <pattern>
@@ -107,12 +110,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.megvii.bigdata.hadoop.hdfs" />
       <option name="MAIN_CLASS_NAME" value="com.megvii.bigdata.hadoop.hdfs.HdfsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="copyFromLocalBigFile" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HdfsTest.testMkdir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HdfsTest.copyToLocal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HadoopTrainV2" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +126,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.megvii.bigdata.hadoop.hdfs" />
       <option name="MAIN_CLASS_NAME" value="com.megvii.bigdata.hadoop.hdfs.HdfsTest" />
-      <option name="METHOD_NAME" value="testMkdir" />
+      <option name="METHOD_NAME" value="copyToLocal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsTest.getFileBlockLocations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HadoopTrainV2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.megvii.bigdata.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.megvii.bigdata.hadoop.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.megvii.bigdata.hadoop.hdfs.HdfsTest" />
+      <option name="METHOD_NAME" value="getFileBlockLocations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsTest.listFileRecursive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HadoopTrainV2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.megvii.bigdata.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.megvii.bigdata.hadoop.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.megvii.bigdata.hadoop.hdfs.HdfsTest" />
+      <option name="METHOD_NAME" value="listFileRecursive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsTest.listFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HadoopTrainV2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.megvii.bigdata.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.megvii.bigdata.hadoop.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.megvii.bigdata.hadoop.hdfs.HdfsTest" />
+      <option name="METHOD_NAME" value="listFiles" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,10 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HdfsTest.testMkdir" />
-        <item itemvalue="Application.HDFSApp" />
-        <item itemvalue="JUnit.HdfsTest" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.HdfsTest.getFileBlockLocations" />
+        <item itemvalue="JUnit.HdfsTest.listFileRecursive" />
+        <item itemvalue="JUnit.HdfsTest.listFiles" />
+        <item itemvalue="JUnit.HdfsTest.copyToLocal" />
+        <item itemvalue="JUnit.HdfsTest.copyFromLocalBigFile" />
       </list>
     </recent_temporary>
   </component>
@@ -148,11 +201,39 @@
       <option name="presentableId" value="Default" />
       <updated>1606635601120</updated>
       <workItem from="1606635604861" duration="1219000" />
-      <workItem from="1606636855778" duration="3602000" />
+      <workItem from="1606636855778" duration="8437000" />
+      <workItem from="1606741784913" duration="3345000" />
+      <workItem from="1606746347499" duration="1363000" />
+      <workItem from="1606748245685" duration="777000" />
+      <workItem from="1606749277564" duration="1735000" />
+      <workItem from="1606751258335" duration="775000" />
+      <workItem from="1607150945484" duration="347000" />
+      <workItem from="1607151403954" duration="82000" />
+      <workItem from="1607153014611" duration="1424000" />
+      <workItem from="1607154492792" duration="340000" />
+      <workItem from="1607154874750" duration="2022000" />
+      <workItem from="1607157592802" duration="8875000" />
+      <workItem from="1607221400943" duration="4361000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
